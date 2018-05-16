@@ -1,0 +1,166 @@
+
+
+/*Input elements, Input pages*/
+/*------------------------------------*\
+    HELP FORM
+\*------------------------------------*/
+
+.user_feedback_button_uft{
+	/* display: none; */
+	position: absolute;
+	bottom: 15px;
+	right: 15px;
+	width: 40px;
+	height: 40px;
+	background-color: #3D88C7;
+	background-repeat: no-repeat;
+	background-size: 500px;
+	background-image: url(../img/icons_uft.png);
+	background-position: -45px -205px;
+	cursor: pointer; 
+}
+
+.help-form-uft{
+	display: none;
+	position: absolute;
+	top: 50px;
+	right: 15px;
+}
+
+.data_safed_uft{
+	display:none;
+	color:green;
+}
+
+#OkDeleteDataBtn_uft,
+.data_deleted_uft{
+	display:none;
+	color:red;
+}
+
+.help-form-uft .close_btn_uft{
+	/* display: none; */
+	color: white;
+	background-color: #3D88C7;
+	text-align: right;
+	padding: 5px;
+	cursor: pointer;
+	font-weight: 700;
+	font-size: 1.2em;
+}
+
+.help-form-uft .success_span_uft{
+	display: none;
+	padding: 10px 30px;
+	color: green;
+}
+
+.help-form-uft #form .help-form-uft-container{
+	width: 90%;
+}
+
+.help-form-uft #form{
+	background-color:white;
+	color:#123456;
+	box-shadow:0px 1px 1px 1px gray;
+	font-Weight:400;
+	width:350px;
+	/* margin:50px 250px 0 50px; */
+	float:left;
+	/* height:500px; */
+	}
+
+.help-form-uft 	#form .help-form-uft-container{
+	padding:10px 0 0 30px;
+	}
+
+.help-form-uft 	h3{
+	margin-top:0px;
+	color:white;
+	background-color:#3D88C7;
+	text-align:center;
+	width:100%;
+	height:30px;
+	padding-top:5px;
+	}
+
+.help-form-uft 	#mainform{
+	width:960px;
+	margin:20px auto;
+	padding-top:20px;
+	font-family: 'Fauna One', serif;
+	}
+
+.help-form-uft 	#mainform h2{
+	width:100%; float:left;
+	}
+
+.help-form-uft 	input{
+	height:40px;
+	margin-top:10px;
+	border-radius:3px;
+	padding:2px;
+	}
+
+.help-form-uft 	.innerdiv{
+	width:65%; float:left;
+	}
+.help-form-uft 	input[type=button]{
+	background-color:forestgreen;
+	border: none;
+	/*font-family: 'Fauna One', serif;*/
+	/* font-Weight:bold; */
+	/* font-size:18px; */
+	color:white;
+	}
+.help-form-uft #clear{clear:both;
+	}
+	/*CSS for right side advertizement*/
+.help-form-uft #formget{
+	float:right;
+	width:30%;
+	margin-top:30px;
+	}
+
+ /**
+ * 14.1 - >= 710px
+ */
+
+@media screen and (min-width: 44.375em) {
+
+}
+
+@media screen and (max-width: 56.875em) {
+/*Footer Menu Setting at smaller screens*/
+
+}
+
+/**
+ * 14.3 - >= 910px
+ */
+
+@media screen and (min-width: 56.875em) {
+
+}
+
+/**
+ * 14.4 - >= 985px
+ */
+
+@media screen and (min-width: 61.5625em) {
+
+}
+
+@media screen and (max-width: 1024px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+
+
+}
+
+@media screen and (max-width: 400px) {
+	
+}
